@@ -6,6 +6,7 @@ import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
 import { PrismaModule } from "./prisma/prisma.module";
 import { ContactModule } from "./contact/contact.module";
+import { ProjectsModule } from './projects/projects.module';
 
 @Module({
   imports: [
@@ -19,6 +20,8 @@ import { ContactModule } from "./contact/contact.module";
 
     // Contact form + email
     ContactModule,
+
+    ProjectsModule,
   ],
 
   controllers: [
