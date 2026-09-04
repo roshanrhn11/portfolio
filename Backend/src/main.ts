@@ -10,7 +10,7 @@ async function bootstrap() {
     "http://127.0.0.1:3000",
 
     // Production frontend
-    "https://portfolio-frontend-9e6sb6kwu-rainy-stack.vercel.app",
+    "https://pathmanathan-niroshan.vercel.app",
 
     // Environment variable
     process.env.FRONTEND_URL,
